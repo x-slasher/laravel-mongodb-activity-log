@@ -61,7 +61,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Spatie\\Activitylog\\": "laravel-mongodb-activitylog/src"
+            "Spatie\\Activitylog\\": "src"
         },
         "files": [
             "src/helpers.php"
