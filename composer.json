@@ -61,10 +61,10 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "XSlasher\\LaravelMongodbActivityLog\\": "src"
+            "XSlasher\\LaravelMongodbActivityLog\\": "laravel-mongodb-activitylog/src"
         },
         "files": [
-            "src/helpers.php"
+            "laravel-mongodb-activitylog/src/helpers.php"
         ]
     },
     "autoload-dev": {
