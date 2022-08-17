@@ -114,6 +114,12 @@ You can optionally publish the config file with:
 php artisan vendor:publish --provider="Spatie\Activitylog\ActivitylogServiceProvider" --tag="activitylog-config"
 ```
 
+also set `ACTIVITY_LOGGER_DB_CONNECTION` value in the env file as the name of mongodb database connection name and
+
+```bash
+ACTIVITY_LOGGER_DB_CONNECTION = mongodb  //or the name of your mongodb connection name in config\database.php file
+```
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information about recent changes.

@@ -61,7 +61,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Spatie\\Activitylog\\": "src"
+            "XSlasher\\LaravelMongodbActivityLog\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -69,7 +69,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Activitylog\\Test\\": "tests"
+            "XSlasher\\LaravelMongodbActivityLog\\Test\\": "tests"
         }
     },
     "config": {
@@ -81,7 +81,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Activitylog\\ActivitylogServiceProvider"
+                "XSlasher\\LaravelMongodbActivityLog\\ActivitylogServiceProvider"
             ]
         }
     },

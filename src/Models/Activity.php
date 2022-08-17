@@ -38,6 +38,7 @@ use Spatie\Activitylog\Contracts\Activity as ActivityContract;
  */
 class Activity extends Model implements ActivityContract
 {
+    protected $connection = config('activitylog.database_connection');
     public $guarded = [];
 
     protected $casts = [
