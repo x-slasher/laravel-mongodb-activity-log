@@ -83,6 +83,9 @@
             "providers": [
                 "XSlasher\\LaravelMongodbActivityLog\\ActivitylogServiceProvider"
             ]
+        },
+        "branch-alias": {
+            "dev-main": "1.1"
         }
     },
     "scripts": {
