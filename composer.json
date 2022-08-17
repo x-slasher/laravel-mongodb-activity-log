@@ -64,7 +64,7 @@
             "XSlasher\\LaravelMongodbActivityLog\\": "laravel-mongodb-activitylog/src"
         },
         "files": [
-            "laravel-mongodb-activitylog/src/helpers.php"
+            "src/helpers.php"
         ]
     },
     "autoload-dev": {
