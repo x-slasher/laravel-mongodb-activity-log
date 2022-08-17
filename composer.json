@@ -69,7 +69,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "XSlasher\\LaravelMongodbActivityLog\\Test\\": "tests"
+            "Spatie\\Activitylog\\Test\\": "tests"
         }
     },
     "config": {
@@ -81,7 +81,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "XSlasher\\LaravelMongodbActivityLog\\ActivitylogServiceProvider"
+                "Spatie\\Activitylog\\ActivitylogServiceProvider"
             ]
         },
         "branch-alias": {
